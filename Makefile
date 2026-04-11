@@ -7,7 +7,7 @@ deps:
 lint:
 	python -m flake8 hello_world test
 
-test:
+test: lint
 	python -m pytest -q
 
 run:
